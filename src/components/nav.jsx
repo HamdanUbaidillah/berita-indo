@@ -39,7 +39,7 @@ const Navbar = ({ setIsError, setDataNews, setIsLoad, fetchNews }) => {
           </span>
         </div>
         <ul
-          className={`flex gap-5 max-md:flex-col max-md:fixed right-0 bottom-0 top-14 max-md:w-[240px] max-md:h-auto max-md:pb-48 max-md:bg-green-400 max-md:gap-0 max-sm:items-start 
+          className={`flex gap-5 max-md:flex-col max-md:fixed right-0 bottom-0 top-14 max-md:w-[240px]  max-md:h-screen max-md:pb-48 max-md:bg-green-400 max-md:gap-0 max-sm:items-start 
             ${showNav ? "right-0" : "right-[-500px]"} transition-all duration-300`}
         >
           {Navs.map((list, i) => {
