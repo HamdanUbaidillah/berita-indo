@@ -57,7 +57,7 @@ function App() {
         <footer className=" fixed bottom-0 w-full right-0 text-center h-[40px] leading-10 backdrop-blur-sm bg-white/50">
           <h1 className="font-semibold">
             Created by{" "}
-            <a className="text-blue-500" href="http://instagram/hmdnubaidillah" target="_blank" rel="noopener noreferrer">
+            <a className="text-blue-500" href="https://www.instagram.com/hmdnubaidillah/" target="_blank" rel="noopener noreferrer">
               hmdnubaidillah
             </a>
           </h1>
