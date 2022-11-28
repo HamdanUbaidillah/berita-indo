@@ -11,7 +11,6 @@ const Navbar = ({ setIsError, setDataNews, setIsLoad, fetchNews }) => {
     axios
       .get(`https://berita-indo-api.vercel.app/v1/cnn-news/${e.target.innerHTML}`)
       .then((res) => {
-        console.log(res.data.code);
         setDataNews(res.data.data);
       })
       .catch((err) => {
