@@ -1,5 +1,5 @@
 # Indonesia News
 
-this App is created with _vitejs.dev_
+this App is created with **vitejs.dev**
 
-this App is fetching data from CNN created by _satyawikananda_
+this App is fetching data from CNN created by **satyawikananda**
