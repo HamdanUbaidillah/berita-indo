@@ -26,7 +26,7 @@ const Navbar = ({ setIsError, setDataNews, setIsLoad, fetchNews }) => {
   };
 
   return (
-    <nav className="bg-green-500 fixed w-full  text-white h-14 flex items-center">
+    <nav className="bg-green-500 fixed w-full z-20  text-white h-14 flex items-center">
       <section className="w-[80%] m-auto flex justify-between items-center ">
         <div>
           <h1 className="text-2xl font-semibold hover:cursor-pointer" onClick={fetchNews}>
